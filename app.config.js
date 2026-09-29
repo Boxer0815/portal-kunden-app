@@ -32,6 +32,16 @@ module.exports = {
       keycloakRealm:  process.env.KEYCLOAK_REALM   ?? "portal",
       keycloakClientId: process.env.KEYCLOAK_CLIENT_ID ?? "kunden-app",
       backendUrl:     process.env.BACKEND_URL      ?? "http://localhost:3001",
+      eas: {
+        projectId: "29e63455-a4f1-46ea-8909-873ac243f753",
+      },
+    },
+    owner: "maxboxer",
+    updates: {
+      url: "https://u.expo.dev/29e63455-a4f1-46ea-8909-873ac243f753",
+    },
+    runtimeVersion: {
+      policy: "appVersion",
     },
   },
 };
